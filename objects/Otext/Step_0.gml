@@ -26,8 +26,10 @@ if(keyboard_check_pressed(vk_space)){
 			}
 		}
 		else{
-			with(Oplayer) state = lastState;
-			skipStepEvent = 5;
+			with(Oplayer){
+			state = lastState;
+			skipStepEvent = 10;
+			}
 		}
 	}
 	else{

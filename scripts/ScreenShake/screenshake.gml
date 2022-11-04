@@ -1,11 +1,11 @@
 // arg Magnitude sets strength of shake
 // arg Frames sets length of the shake in frames (60 = 1 second)
-function ScreenShake(){
+function ScreenShake(arg1, arg2){
 	with (global.iCamera){
-		if(argument0 > shakeRemain){
-			shakeMagnitude = argument0;
+		if(arg1 > shakeRemain){
+			shakeMagnitude = arg1;
 			shakeRemain = shakeMagnitude;
-			shakeLength = argument1;
+			shakeLength = arg2;
 		}
 	}
 }

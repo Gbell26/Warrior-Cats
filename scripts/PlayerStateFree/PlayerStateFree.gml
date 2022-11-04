@@ -18,11 +18,11 @@ if(_oldSprite != sprite_index){
 //update image index
 PlayerAnimateSprite();
 
-if(keyCrawl)
-{
-		state = PlayerStateCrawl;
-		moveDistanceRemaining = distanceCrawl;
+if(keyAttack){
+	state = PlayerStateAttack;
+	stateAttack = AttackSlash;
 }
+
 //Activate key logic
 if(keyActivate)
 {
@@ -37,8 +37,9 @@ if(keyActivate)
 	
 	if(activate == noone || activate.entityActivateScript == -1){
 		
-		state = PlayerStateCrawl();
 		moveDistanceRemaining = distanceCrawl;
+		state = PlayerStateCrawl;
+		
 	}
 	else{
 		ScriptExecuteArray(activate.entityActivateScript,activate.entityActivateArgs);
