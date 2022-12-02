@@ -57,9 +57,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8AFD735","properties":[],"isDnd":false,"objectId":{"name":"oPlantb","path":"objects/oPlantb/oPlantb.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":50.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":5,"gridY":5,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","tilesetId":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":20,"SerialiseHeight":12,"TileCompressedData":[
--21,1,-3,0,1,1,-14,0,-3,1,3,0,1,1,-3,0,1,1,-10,0,
--2,1,-18,0,-2,1,-18,0,-2,1,-18,0,-2,1,-18,0,-9,1,-11,0,
--17,1,-3,0,-17,1,-3,0,-3,1,-17,0,-21,1,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+-21,1,-3,0,1,1,-14,0,-3,1,3,0,1,1,-14,0,-2,1,-18,0,
+-2,1,-18,0,-2,1,-18,0,-2,1,-18,0,-9,1,-11,0,-17,1,-3,0,
+-17,1,-3,0,-3,1,-17,0,-21,1,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"TilesUpper","tilesetId":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":20,"SerialiseHeight":12,"TileCompressedData":[
 -5,-2147483648,-15,69,-5,-2147483648,-3,69,1,-2147483648,-3,62,-3,64,-3,65,-7,-2147483648,-3,69,
 1,-2147483648,-3,62,-3,64,-3,65,-2,-2147483648,5,69,31,32,33,63,-4,148,-3,62,
