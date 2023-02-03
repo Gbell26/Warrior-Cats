@@ -15,6 +15,7 @@
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":3,},
     {"id":{"name":"CalcAttack","path":"scripts/CalcAttack/CalcAttack.yy",},"order":15,},
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},"order":7,},
+    {"id":{"name":"rMiddle","path":"rooms/rMiddle/rMiddle.yy",},"order":4,},
     {"id":{"name":"sTextBoxes","path":"sprites/sTextBoxes/sTextBoxes.yy",},"order":5,},
     {"id":{"name":"sPlayerCrawl","path":"sprites/sPlayerCrawl/sPlayerCrawl.yy",},"order":7,},
     {"id":{"name":"SsignPost","path":"sprites/SsignPost/SsignPost.yy",},"order":6,},
@@ -71,6 +72,7 @@
     {"roomId":{"name":"Rinit","path":"rooms/Rinit/Rinit.yy",},},
     {"roomId":{"name":"Rvillage","path":"rooms/Rvillage/Rvillage.yy",},},
     {"roomId":{"name":"Rparent","path":"rooms/Rparent/Rparent.yy",},},
+    {"roomId":{"name":"rMiddle","path":"rooms/rMiddle/rMiddle.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
