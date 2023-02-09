@@ -21,3 +21,10 @@ spriteCrawl = sPlayerCrawl;
 spriteRun = Cat_Run;
 spriteIdle = Cat_All;
 localFrame = 0;
+
+if (global.targetX != -1)
+{
+		x = global.targetX;
+		y = global.targetY;
+		direction = global.targetDirection;
+}
